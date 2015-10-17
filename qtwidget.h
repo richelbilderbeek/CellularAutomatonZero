@@ -18,7 +18,8 @@ public:
   explicit QtWidget(
     const int width = 10,
     const int height = 10,
-    QWidget *parent = 0);
+    QWidget *parent = nullptr
+  );
   ~QtWidget();
 
 protected:

@@ -38,6 +38,7 @@ void QtWidget::OnTimer()
   ++z;
   const int height{m_pixmap.height()};
   const int width{m_pixmap.width()};
+
   QImage image(width,height,QImage::Format_RGB32);
   for (int y=0; y!=height; ++y)
   {
