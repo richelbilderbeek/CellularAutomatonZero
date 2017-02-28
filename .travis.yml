@@ -35,10 +35,10 @@ before_script:
 
 script: 
   # Build and run 'real' program
-  - qmake -qt=qt5 CellularAutomaton.pro
+  - qmake -qt=qt5 CellularAutomatonZero.pro
   - make
-  - ./CellularAutomaton &
-  - sudo killall -9 CellularAutomaton
+  - ./CellularAutomatonZero &
+  - sudo killall -9 CellularAutomatonZero
   # Get code coverage
   - ./get_code_cov
   - codecov
