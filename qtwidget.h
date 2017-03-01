@@ -12,7 +12,7 @@ struct QImage;
 
 class QtWidget : public QWidget
 {
-  Q_OBJECT
+  Q_OBJECT //!OCLINT
 
 public:
   explicit QtWidget(
