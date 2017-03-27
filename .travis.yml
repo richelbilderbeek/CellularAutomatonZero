@@ -32,9 +32,9 @@ before_script:
   - sleep 3 # give xvfb some time to start
 
 script: 
-  # Build and run program
+  # Build and run program for code coverage
   - qmake -qt=qt5 CellularAutomatonZero.pro
-  - make
+  - make debug
   - ./CellularAutomatonZero --profile
   # Get code coverage
   - ./get_code_cov
