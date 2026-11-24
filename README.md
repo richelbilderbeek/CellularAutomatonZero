@@ -1,5 +1,7 @@
 # CellularAutomatonZero
 
+[Go to the nicely rendered website](https://richelbilderbeek.github.io/CellularAutomatonZero/).
+
 Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)|[![Codecov logo](Codecov.png)](https://www.codecov.io)
 ---|---|---
 master|[![Build Status](https://travis-ci.org/richelbilderbeek/CellularAutomatonZero.svg?branch=master)](https://travis-ci.org/richelbilderbeek/CellularAutomatonZero)|[![codecov.io](https://codecov.io/github/richelbilderbeek/CellularAutomatonZero/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/CellularAutomatonZero/branch/master)
