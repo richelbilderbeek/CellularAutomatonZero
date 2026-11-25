@@ -1,0 +1,7 @@
+Bilderbeek's
+CellularAutomaton
+CellularAutomatonZero
+Codecov
+Richèl
+codecov
+io
